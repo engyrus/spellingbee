@@ -45,7 +45,7 @@ while len(center_letter) != 1 or center_letter not in seed_letters:
         center_letter = random.choice(seed_word)
         print("center letter:", center_letter.upper())
 
-# print puzzle, randomized but withcenter letter in middle
+# print puzzle, randomized but withc enter letter in middle
 puzzle_letters = list(set(seed_word.upper()))
 random.shuffle(puzzle_letters)
 # put the center letter in the center
