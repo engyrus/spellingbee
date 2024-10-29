@@ -19,7 +19,9 @@ The basic approach I took is:
     - The user may also just enter a string of 7 unique letters that are not a word. (You might have this instead of the actual seed word if you are trying to solve an existing puzzle.) The script will find the first pangram made of those letters and use that as the seed word.
 
 3. Ask the user to choose which letter should be in the center of the puzzle, or again choose it randomly.
-Find all the words in the word list that are solutions to the puzzle. These are the ones that are at least four letters long, contain only letters from the seed word, and contain the center letter.
+
+4. Find all the words in the word list that are solutions to the puzzle. These are the ones that are at least four letters long, contain only letters from the seed word, and contain the center letter.
+
 The script can be used either to generate puzzles (by finding good seed words, trying to solve, then checking your answers) or to help solve a puzzle, including the ones in the Times.
 
 You could expand it into an actual game that you can play, with a GUI and all that, but I'll leave that for you.
