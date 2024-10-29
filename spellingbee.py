@@ -1,5 +1,5 @@
-# bee.py - using UNIX word list, create a puzzle like the New York Times' 
-#          "Spelling Bee," along with all possible solutions
+# spellingbee.py - using UNIX word list, create a puzzle like the New York Times' 
+#                  "Spelling Bee," along with all possible solutions
 
 # The UNIX word list is more extensive than the Times' list; you'll see
 # some mighty obscure words, and also some totally inappropriate ones.
